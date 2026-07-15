@@ -1,0 +1,45 @@
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+
+# CocoaPods
+Pods/
+*.xcworkspace
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Unrelated directories
+novel-helper/
+
+# IDE
+.idea/
+.vscode/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Build
+*.o
+*.LinkFileList
+*.hmap
