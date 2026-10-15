@@ -48,7 +48,7 @@
 - **OCR 识别**：Apple Vision Framework
 - **图表**：Swift Charts
 - **快捷指令**：App Intents Framework
-- **最低系统**：iOS 16.0
+- **最低系统**：iOS 17.0（SwiftData 与 Package.swift 的部署目标）
 
 ## 项目结构
 
@@ -89,14 +89,14 @@ MoneyMark/
 ## 开发环境
 
 1. Xcode 15.0+
-2. iOS 16.0+ 部署目标
+2. iOS 17.0+ 部署目标
 3. Swift 5.9+
 
 ## 使用方式
 
-1. 在 Xcode 中打开 `MoneyMark.xcodeproj`
-2. 选择 iOS 模拟器或真机设备
-3. Build & Run (⌘R)
+1. 在 Xcode 中打开仓库根目录的 `Package.swift`。
+2. 选择支持 iOS 17.0+ 的模拟器，运行 `MoneyMarkTests` 验证包内逻辑。
+3. 当前仓库提供 Swift Package，未包含 `MoneyMark.xcodeproj`。安装为独立 App 前，需要配置 iOS App target、签名与所需能力。
 
 ## 竞品对标
 
